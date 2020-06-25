@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# Created: 06/25/2020
+# Bill McGair bill@mcgair.com
+
+require_relative "../lib/nrchallenge.rb"
+
+challenge=NRChallenge.new
+challenge.three_word_sequence
