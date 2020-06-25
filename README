@@ -8,7 +8,7 @@ test/test_nrchallenge.rb test.txt
 I suspect that there's a more efficient way to do this without slurping the whole file, but I wasn't sure how
 to handle the case of sequences that broke across lines without a lot of tweaking for that.
 
-I didn't really do TDD here, which made glomming the test framework on at the end just add complexity without buying much. This is less than ideal.
+I didn't really do TDD here, which made glomming the test framework on at the end just add complexity without buying much. This is less than ideal obviously.
 
 Cheers-
 Bill McGair
