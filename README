@@ -6,9 +6,9 @@ bundle install
 test/test_nrchallenge.rb test.txt 
 
 I suspect that there's a more efficient way to do this without slurping the whole file, but I wasn't sure how
-to handle the case of sequences that broke across lines without a lot of tweaking for that case.
+to handle the case of sequences that broke across lines without a lot of tweaking for that.
 
-I didn't really do TDD here, which made glomming the test framework on at the end just add complexity without buying much. I get that this is less than ideal, but when spinning something like this up ad hoc, and under a time constraint, without working in the larger framework of a team that's dedicated to TDD, it just sort of happened that way.
+I didn't really do TDD here, which made glomming the test framework on at the end just add complexity without buying much. This is less than ideal.
 
 Cheers-
 Bill McGair
